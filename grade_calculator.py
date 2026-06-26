@@ -1,0 +1,20 @@
+name=input("Enter your name:")
+m1=int(input("Enter Mark 1:"))
+m2=int(input("Enter Mark 2:"))
+m3=int(input("Enter Mark 3:"))
+total=m1+m2+m3
+average=total/3
+print("Name:",name)
+print("Total:",total)
+print("Average:",average)
+if average>=90:
+    print("Grade:A")
+elif average >=75:
+    print("Grade:B")
+elif average >=50:
+    print("Grade:C")
+else:
+    print("Grade:Fail")
+print("Congratulations!")  
+
+
